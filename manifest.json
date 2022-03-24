@@ -1,0 +1,12 @@
+{
+    "name" : "custom script for Chrome",
+    "version" : "0.1",
+    "manifest_version": 2,
+    "description" : "Some desc......",
+    "content_scripts" : [
+        {
+            "js" : ["init.js"],
+            "matches" : ["*://www.youtube.com/"]
+        }
+    ]
+}
